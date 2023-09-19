@@ -19,7 +19,7 @@ function Disperse() {
   const onSubmit = () => {
     const lines = inputText.split('\n');
     const validatedAddresses = [];
-    const duplicateAddresses = new Map(); // Use a Map to store duplicates along with their line numbers
+    const duplicateAddresses = new Map(); 
     const errors = [];
   
     for (const [index, line] of lines.entries()) {
@@ -57,7 +57,6 @@ function Disperse() {
       setDuplicateOption('Duplicated');
     }
   
-    // Join errors with line breaks and set as the error message
     setError(errors.join('\n'));
   };
   
