@@ -34,10 +34,6 @@ const StyledNumbers = styled.div`
   white-space: nowrap;
 `;
 
-const StyledNumber = styled.div`
-  padding: 5px 10px;
-  color: ${(props) => (props.active ? "blue" : "inherit")};
-`;
 
 const StyledTextarea = styled.textarea`
   ${sharedStyle}
