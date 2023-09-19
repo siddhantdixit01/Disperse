@@ -15,7 +15,7 @@ h1{
 
 .address textarea{
   width: 100%;
-  height: 150px;
+  min-height: 150px;
   font-size: large;
   font-weight: bold;
   box-sizing: border-box;
