@@ -123,10 +123,10 @@ function Disperse() {
         {duplicateOption && (
             <div className='duplicate'>
                 <div>{duplicateOption}</div>
-                <div>
-                    <a onClick={keepFirstOne}>Keep the first one</a>
+                <div className='options'>
+                    <button onClick={keepFirstOne}>Keep the first one</button>
                     &ensp;|&ensp;
-                    <a onClick={combineBalances}>Combine Balance</a>
+                    <button onClick={combineBalances}>Combine Balance</button>
                 </div>
             </div>
         )}
@@ -141,7 +141,7 @@ function Disperse() {
 
         
         {/* Button to submit the input */}
-        <button onClick={onSubmit}>Next</button>
+        <button className='next' onClick={onSubmit}>Next</button>
       </div>
 
 
