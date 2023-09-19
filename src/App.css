@@ -1,38 +1,61 @@
-.App {
+h1{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.address{
+  width: 52%;
+  margin: auto;
+  margin-top: 7rem;
+  color: grey;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.address div{
+  padding-bottom: 0.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.address textarea{
+  width: 100%;
+  height: 150px;
+  font-size: large;
+  font-weight: bold;
+  box-sizing: border-box;
+  border: 0px solid black;
+  border-radius: 4px;
+  background-color: #F4F6FA;
+  resize: none;
+}
+
+.address button{
+  width: 100%;
+  height: 3.2rem;
+  font-size: 15px;
+  background-color: #1F379D;
   color: white;
+  border: 0px solid black;
+  border-radius: 5px;
+  margin-top: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.error{
+  border: 2px solid red;
+  border-radius: 5px;
+  color: red;
+  padding: 13px;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error svg{
+  margin-right: 2.5em !important;
+  vertical-align: middle;
+}
+
+.duplicate{
+  color: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+pre{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  margin: 0px;
 }
