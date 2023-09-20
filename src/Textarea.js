@@ -32,6 +32,9 @@ const StyledNumbers = styled.div`
   color: grey;
   width: 2rem;
   white-space: nowrap;
+  @media screen and (max-width: 768px) {
+    width: auto; 
+  }
 `;
 
 
@@ -41,6 +44,9 @@ const StyledTextarea = styled.textarea`
   border: none;
   &::placeholder {
     color: grey;
+  }
+  @media screen and (max-width: 768px) {
+    width: 100%;
   }
 `;
 
