@@ -76,6 +76,7 @@ function Disperse() {
 
     setAddresses(uniqueAddresses);
     setDuplicateOption(null);
+    setError(null);
   };
 
   // Function to handle combining balances of duplicate addresses
@@ -98,6 +99,7 @@ function Disperse() {
 
     setAddresses(combinedAddresses);
     setDuplicateOption(null);
+    setError(null);
   };
 
   return (
